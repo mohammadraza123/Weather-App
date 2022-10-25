@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100%;
+    height: 110vh;
+
+    background-image: url("photos/sky image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input {
+
+    padding: 20px;
+    width: 500px;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    animation-duration: 0ms;
+    outline: none;
+    color: black;
+    border-radius: 40px;
+}
+
+#search {
+    background-image: url("photos/clouds.gif");
+    padding: 50px;
+    background-size: cover;
+    width: 50%;
+    margin-left: 350px;
+    text-align: center;
+    border-radius: 10px;
+    opacity: .7;
+}
+
+button {
+    padding: 15px;
+    font-size: 24px;
+    border: none;
+    background: transparent;
+
+
+}
+
+button:hover {
+    opacity: .5;
+    transform: scale(1.66);
+    transition: .4s;
+}
+
+#update {
+    background-image: url("photos/clouds.gif");
+    background-repeat: no-repeat;
+    margin-left: 350px;
+    margin-top: 40px;
+    background-size: cover;
+    width: 56%;
+    opacity: .7;
+    height: 600px;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width : 768px) {
+
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    input {
+        margin-left: -18px;
+
+        font-size: 14px;
+        height: 2px;
+
+    }
+
+    #search {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 65%;
+        height: fit-content;
+        display: flex;
+    }
+
+    button {
+        margin-top: -10px;
+        width: 20%;
+    }
+
+    button:hover {
+        opacity: .7;
+        transform: none;
+        transition: 5;
+    }
+
+    #update {
+        width: 90%;
+
+        font-size: 20px;
+        display: block;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 5px;
+        height: 500px;
+    }
+}
